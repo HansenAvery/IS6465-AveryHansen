@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Request Tutoring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main class="container py-5">
+        <h1 class="page-title">Peer Tutoring Hub</h1>
+
+        <form class="request-form row g-3" action="process-request.php" method="post">
+            <div class="col-sm-6">
+                <label class="form-label" for="course">Course</label>
+                <select class="form-select" id="course" name="course" required>
+                    <option value="" selected disabled>Select a course</option>
+                    <option value="IS 6465">IS 6465</option>
+                </select>
+            </div>
+            <div class="col-sm-6">
+                <label class="form-label" for="date">Preferred date</label>
+                <input class="form-control" id="date" name="date" type="date" required>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-danger" type="submit">Request session</button>
+            </div>
+        </form>
+        <a class="back-link" href="index.html">Back to home</a>
+    </main>
+</body>
+
+</html>

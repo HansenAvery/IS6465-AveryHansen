@@ -1,0 +1,8 @@
+In this lab I used Github's client AI. 
+
+add link to import bootsrap latest version
+
+AI helped create lines of code and helped examine the requirements for this assignment. I used AI to apply bootstrap throughout the webpage. 
+
+When I applied the bootstrap changes, I had ai look through the assignment requirements and it made a bunch of erroneous changes. I adjusted these changes to remove a lot of the complexity as this assignment isn't
+supposed to be that complex. I also had to revise and test multiple changes when trying to apply continuity with the button colors. 
