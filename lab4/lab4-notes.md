@@ -1,6 +1,6 @@
 Part 1 
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 Describe what happens after you submit the form. 
 The request form then submits a post request to process-request.php and the process-request page validates the values submitted. If there are no errors then the process-request displays the confirmation, if there are 
